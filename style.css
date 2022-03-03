@@ -1,0 +1,83 @@
+body{
+  background-image: linear-gradient(to bottom, #fff, #00d4ff);
+}
+.bg-nav{
+    background-color: rgb(175, 175, 175);
+  }
+  i{
+    padding-right: 10px;
+  }
+  .login-form{
+    align-items: normal;
+  }
+ 
+  .navbar-hover ul li {
+      
+  }
+  .login-form li:first-child a{
+    display: block;
+    padding-right: 20px;
+  }
+  .login-form li a{
+    color:grey;
+  }
+  .login-form li:hover a {
+    color:blue;
+    text-decoration: none;
+  }
+
+  .jumbotron{
+      background-image: url("2.png") ;
+    border-radius: 10px;
+    margin-top:20px;
+  }
+  
+  a.nav-link:hover {
+background-color: aliceblue;
+  }
+  /* chinh sua cai hover sao cho bang kich thuoc cua div*/
+  .nav-link{
+      display: inline;
+  }
+  a.nav-link{  
+      
+    line-height: 40px;      
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    padding-top:20px;
+  }
+
+  @media only screen and (max-width: 767.33px){
+    .login-form:last-child a,
+    li.nav-item {
+        padding-bottom:15px;
+        padding-top:12px;
+        position: relative;
+        top:8;
+    }
+    /* chinh sua lai hover cho dt*/
+    .login-form li a,
+   a.nav-link{
+     display: block;
+     line-height: 0;
+     margin: 0;
+     width: 106.7%;
+    transform: translateX(-16px);
+    
+   }/*chinh sua lai ko cho chữ sát bên lề*/
+   .login-form li a,
+   .navbar-nav .nav-link{
+       padding-left:16px;
+   }
+ .login-form li:hover a{
+   background-color: aliceblue;
+ }
+    
+   }
+   li.nav-item{
+    
+   }
+   footer{
+     text-align: center;
+   }
+  
